@@ -56,7 +56,7 @@
 // const add2 = (a,b) => {
 //     return a + b;
 // } 
-console.log(add2(2,2));
+// console.log(add2(2,2));
 //fonctions non pures
 // let x = 2;
 // const add1 = y => {
@@ -69,6 +69,38 @@ console.log(add2(2,2));
 /*des fonctions qui prennent une autre fonction en paramétre, ou qui
 retourne une autre, ou les deux*/
 //Permet de pouvoir effectuer des actions multiples avec une seule et même fonction
+//procédural
+// const rawArr = [5,6,5889,52,415,120];
+// const newArr = [];
+// for(let i = 0; i < rawArr.length; i++) {
+//     if(rawArr[i] > 100) {
+//         newArr.push(rawArr[i]);
+//     }
+// }
+// console.log(newArr);
 
+//Utilisation réutilisable
+// const rawArr = [5,6,5889,52,415,120];
+// const supArr = (arr, fn) => {
+//     const newArr = [];
+//         for(let i = 0; i < arr.length; i++) {
+//         if(fn(arr[i])) {
+//             newArr.push(arr[i]);
+//         }
+//     }
+//     return newArr;
+// }
+// const arrSup100 = supArr(rawArr, (item) => {
+//     if(item > 100) {
+//         return item;
+//     }
+// })
+// const arrSup200 = supArr(rawArr, (item) => {
+//     if(item > 200) {
+//         return item;
+//     }
+// })
 
+// console.log(arrSup100);
+// console.log(arrSup200);
 
