@@ -51,4 +51,24 @@
 // }
 // console.log(add(2,2,6,8));
 
-//Les fonction pures
+//Les fonction pures et non pures
+//fonctions pures (qui sont très utilisé avec React)
+// const add2 = (a,b) => {
+//     return a + b;
+// } 
+console.log(add2(2,2));
+//fonctions non pures
+// let x = 2;
+// const add1 = y => {
+//     return x += y;
+// }
+// console.log(add1(2));
+
+
+//Les fonctions d'ordre supérieur
+/*des fonctions qui prennent une autre fonction en paramétre, ou qui
+retourne une autre, ou les deux*/
+//Permet de pouvoir effectuer des actions multiples avec une seule et même fonction
+
+
+
