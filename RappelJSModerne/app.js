@@ -106,11 +106,32 @@ retourne une autre, ou les deux*/
 
 
 //Les fonctions d'ordre supérieur des tableaux
-const arr = [1,2,3,4,5,6];
+// const arr = [1,2,3,4,5,6];
 //la méthode map retourn e un nouveau tableau
-const mapedArr = arr.map(x => x + 10);
-console.log(mapedArr);
+// const mapedArr = arr.map(x => x + 10);
+// console.log(mapedArr);
 //La méthode Filter retourne un nouveau tableau
-const filteredArr = arr.filter(num => num > 2);
-console.log(filteredArr);
+// const filteredArr = arr.filter(num => num > 2);
+// console.log(filteredArr);
 
+
+//Destructuring
+// const pays = {
+//     nom : "Italie",
+//     pop: 60
+// }
+//de base on fait comme cela
+// const nom = pays.nom;
+// console.log(nom);
+//Destructuring
+// const {nom, pop} = pays;
+// console.log(nom, pop);
+//Utilisation destructing dans React plustard
+// const data = ({nom}) => {
+//     return nom;
+// }
+// console.log(data(pays));
+//Destructuring avec les tableaux
+// const arr = [1,2,3];
+// const [a,b,c] = arr;
+// console.log(a,b,c);
